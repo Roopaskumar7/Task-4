@@ -1,5 +1,4 @@
-If you'd like to experiment with [Terraform](https://www.terraform.io) on
-macOS locally, a great provider for doing so is the
+
 [Docker provider](https://www.terraform.io/docs/providers/docker/index.html).
 You can get set up in a few simple steps, like so:
 
@@ -86,6 +85,5 @@ NAMES               STATUS
 enginecks           Up 17 seconds
 ```
 
-Looks like the NGINX container (named _enginecks_) is up!
 
 Now visit http://localhost in your browser and you should observe the default **Welcome to nginx!** default page.
